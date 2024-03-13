@@ -4,8 +4,6 @@ import authRouter from "./routes/auth.js";
 import expressEjsLayouts from "express-ejs-layouts";
 
 const app = Express();
-// app.use=Express();
-
 
 // Configure mon application pour qu'elle utlise ejs comme moteur de templating
 // l'outil qui va generer de l'html
@@ -16,7 +14,6 @@ app.use(expressEjsLayouts)
 app.use(Express.static("public"));
 
 app.use("/", (req, res, next) => {
-  console.log("ouai");
   next();
 });
 
