@@ -1,0 +1,35 @@
+nav ul{
+    display:flex;
+    justify-content: space-evenly;
+    list-style:none;
+}
+a{
+    text-decoration:none;
+    color:black;
+    
+}
+img{
+    width: 20rem;
+    height: 15rem;
+}
+.red{
+    color: red;
+}
+.red:hover{
+    background: url(../images/happiness.gif);
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.article{
+    border: 1px solid black;
+    border-radius: 2rem;
+    text-align: center;
+    margin: 1rem auto;
+    width: fit-content;
+    padding: 2rem;
+}
+.article:hover{
+    background: url(../images/happiness.gif);
+}
